@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  run-uname:
+  run-binary:
     runs-on: ubuntu-latest
     steps:
-      - run: uname -m
+      - run: ls
