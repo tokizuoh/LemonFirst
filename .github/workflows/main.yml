@@ -1,0 +1,10 @@
+name: run-executable-file-build-by-swift
+
+on:
+  workflow_dispatch:
+
+jobs:
+  show-commit-hash:
+    runs-on: ubuntu-latest
+    steps:
+      - run: uname -m
