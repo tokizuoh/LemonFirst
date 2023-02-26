@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  show-commit-hash:
+  run-uname:
     runs-on: ubuntu-latest
     steps:
       - run: uname -m
