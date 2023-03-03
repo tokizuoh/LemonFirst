@@ -8,6 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: swift --version
-      # - run: swift build -c release
-      # - run: ./.build/release/LemonFirst 
+      - run: swift build -c release
+      - run: ./.build/release/LemonFirst 
